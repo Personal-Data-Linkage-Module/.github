@@ -1,13 +1,19 @@
-# Personal-Data-Linkage-Module
-
 ## 概要
-こちらはパーソナルデータ連携モジュール開発者コミュニティサイトです。
+こちらは**パーソナルデータ連携モジュール**の開発者コミュニティサイトです。
+**パーソナルデータ連携モジュール**とは、サービス事業者が保有しているパーソナルデータを組織をまたがって共有できるトラスト層／データ連携層の機能群です。
 
 ## 活動情報
-メインバージョン1の開発成果物は、
-[v1.x.xメンテナンス](https://github.com/orgs/Personal-Data-Linkage-Module/projects/1)
-プロジェクトで管理されています。
-[こちら](https://github.com/orgs/Personal-Data-Linkage-Module/projects/1)でバグや質問への対応状況を確認することができます。
+### 開発活動
+プロダクトの状況は、
+[メンテナンス用プロジェクト](https://github.com/orgs/Personal-Data-Linkage-Module/projects/1)
+で管理されています。
+バグや質問への対応状況を確認することができます。
+
+### 普及活動
+本コミュニティでは、エリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象にセミナーを開催しています。
+セミナー詳細は
+[セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://github.com/Personal-Data-Linkage-Module/.github/assets/87103717/e25e809e-0344-498c-a6b7-f04de6195220)
+をご確認ください。
 
 ## コントリビューションガイド
 ### バグの報告
@@ -28,7 +34,6 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 
 ## リポジトリ構成
 
-sample
 |No. |Repository Name |Description |
 |:-|:-|:-|
 |1 |pxr-linkage |複数のモジュールを連携して利用するために必要なファイルを管理します |
@@ -36,7 +41,15 @@ sample
 |3 |docs |作成中 |
 |4 |test |作成中 |
 
+## 連絡先
+パーソナルデータ連携モジュールの開発に貢献したい方、コミュニティの運営に参加したい個人・団体の方は、
+[Code for Japan(Slack)](https://www.code4japan.org/activity/community)
+に記載の手順でワークスペースにご参加ください。
+認証認可・同意管理については、#proj-cityos_auth というチャンネルでやり取りしているので、そちらにご参加をお願いします。
 
+エリア・データ連携基盤に関するお問合せは、
+[DSA(エリア・データ連携基盤に関するお問合せ)](https://data-society-alliance.org/area-data/contact/)
+フォームからご連絡お願いします。
 
 <!--
 
