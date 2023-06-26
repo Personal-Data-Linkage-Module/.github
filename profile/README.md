@@ -8,11 +8,18 @@
 [メンテナンス用プロジェクト](https://github.com/orgs/Personal-Data-Linkage-Module/projects/1)
 で管理されています。
 バグや質問への対応状況を確認することができます。
+また、本コミュニティは、運営および開発メンバーを随時募集しています。
+メンバーとして参加を希望する方は、
+[メンバー加入希望チャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E5%8A%A0%E5%85%A5%E5%B8%8C%E6%9C%9B)
+から参加希望のご連絡をお願いします。
+
 
 ### 普及活動
-本コミュニティでは、エリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象にセミナーを開催しています。
-セミナー詳細は
-[セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://github.com/Personal-Data-Linkage-Module/.github/assets/87103717/e25e809e-0344-498c-a6b7-f04de6195220)
+[一般社団法人データ社会推進協議会 (DSA) ](https://data-society-alliance.org/)
+にて、
+本モジュールを利用してエリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象に、セミナーを開催しています。
+セミナーの詳細情報は
+[セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://data-society-alliance.org/area-data/seminar)
 をご確認ください。
 
 ## コントリビューションガイド
@@ -34,21 +41,39 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 
 ## リポジトリ構成
 
+**リポジトリ一覧表**
 |No. |Repository Name |Description |
 |:-|:-|:-|
-|1 |pxr-linkage |複数のモジュールを連携して利用するために必要なファイルを管理します |
-|2 |pxr-{モジュール名称}-service |単体モジュールのソースコードや設定ファイルを管理します |
-|3 |docs |作成中 |
-|4 |test |作成中 |
+| 1 |pxr-linkage |複数のモジュールを連携して利用するために必要なファイルを管理します。 |
+| 2 |pxr-operator-service |オペレータ (運営メンバー, 個人)のアカウント管理と認証を行うoperatorモジュールのソースコードや設定ファイルを管理します。 |
+| 3 |pxr-catalog-service |My-Condition-Data[^1]カタログの管理を行うcatalogモジュールのソースコードや設定ファイルを管理します。 |
+| 4 |pxr-catalog-update-service |My-Condition-Data[^1]カタログのうち特殊な手順で管理を行うcatalog-updateモジュールのソースコードや設定ファイルを管理します。 |
+| 5 |pxr-block-proxy-service |各サービスへproxyを行うblock-proxyモジュールのソースコードや設定ファイルを管理します。 |
+| 6 |pxr-notification-service |オペレータへ通知や承認要求を行うnotificationモジュールのソースコードや設定ファイルを管理します。 |
+| 7 |pxr-book-manage-service |My-Condition-Book[^2]の管理を行うbook-manageモジュールのソースコードや設定ファイルを管理します。 |
+| 8 |pxr-book-operate-service |My-Condition-Book[^2]へデータの蓄積と共有を行うbook-operateモジュールのソースコードや設定ファイルを管理します。 |
+| 9 |pxr-identity-verificate-service |本人性の確認を行うidentity-verificateモジュールのソースコードや設定ファイルを管理します。 |
+|10 |pxr-ctoken-ledger-service |CToken台帳の管理を行うctoken-ledgerモジュールのソースコードや設定ファイルを管理します。 |
+|11 |pxr-local-ctoken-service |Local-Ctoken-Storeの更新とCToken台帳への差分送信を行うcertification-authorityモジュールのソースコードや設定ファイルを管理します。 |
+|12 |pxr-certification-authority-service |証明書の生成や取得、検証を行うcertification-authorityモジュールのソースコードや設定ファイルを管理します。 |
+|13 |pxr-certificate-manage-service |証明書の管理を行うcertificate-manageモジュールのソースコードや設定ファイルを管理します。 |
+|14 |pxr-access-control-manage-service |API間のアクセス設定とデータ操作定義の確認、APIトークンの生成指示を行うaccess-control-manageモジュールのソースコードや設定ファイルを管理します。 |
+|15 |pxr-access-control-service |APIトークンの生成と照合を行うaccess-controlモジュールのソースコードや設定ファイルを管理します。 |
+|16 |pxr-binary-image-service |バイナリファイルのアップロードとダウンロードを行うbinary-manageモジュールのソースコードや設定ファイルを管理します。 |
+
+[^1]: 蓄積されるパーソナルデータ
+[^2]: 個人が保持するMy-Condition-Dataの集合体
 
 ## 連絡先
 パーソナルデータ連携モジュールの開発に貢献したい方、コミュニティの運営に参加したい個人・団体の方は、
-[Code for Japan(Slack)](https://www.code4japan.org/activity/community)
-に記載の手順でワークスペースにご参加ください。
+[こちらのチャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E5%8A%A0%E5%85%A5%E5%B8%8C%E6%9C%9B)
+へご連絡頂くとともに
+[Code for Japan (Slack) ](https://www.code4japan.org/activity/community)
+に記載の手順でslackのワークスペースへご参加ください。
 認証認可・同意管理については、#proj-cityos_auth というチャンネルでやり取りしているので、そちらにご参加をお願いします。
 
 エリア・データ連携基盤に関するお問合せは、
-[DSA(エリア・データ連携基盤に関するお問合せ)](https://data-society-alliance.org/area-data/contact/)
+[DSA (エリア・データ連携基盤に関するお問合せ) ](https://data-society-alliance.org/area-data/contact/)
 フォームからご連絡お願いします。
 
 <!--
