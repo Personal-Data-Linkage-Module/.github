@@ -8,6 +8,9 @@
 [メンテナンス用プロジェクト](https://github.com/orgs/Personal-Data-Linkage-Module/projects/1)
 で管理されています。
 バグや質問への対応状況を確認することができます。
+また、本コミュニティは、運営および開発メンバーを随時募集しています。
+メンバーとして参加を希望する方は、[一般チャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E4%B8%80%E8%88%AC)から参加希望のご連絡をお願いします。
+
 
 ### 普及活動
 本コミュニティでは、エリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象にセミナーを開催しています。
@@ -34,16 +37,17 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 
 ## リポジトリ構成
 
+**リポジトリ一覧表**
 |No. |Repository Name |Description |
 |:-|:-|:-|
 | 1 |pxr-linkage |複数のモジュールを連携して利用するために必要なファイルを管理します。 |
 | 2 |pxr-operator-service |オペレータ (運営メンバー, 個人)のアカウント管理と認証を行うoperatorモジュールのソースコードや設定ファイルを管理します。 |
-| 3 |pxr-catalog-service |My-Condition-Dataカタログの管理を行うcatalogモジュールのソースコードや設定ファイルを管理します。 |
-| 4 |pxr-catalog-update-service |My-Condition-Dataカタログのうち特殊な手順で管理を行うcatalog-updateモジュールのソースコードや設定ファイルを管理します。 |
+| 3 |pxr-catalog-service |My-Condition-Data[^1]カタログの管理を行うcatalogモジュールのソースコードや設定ファイルを管理します。 |
+| 4 |pxr-catalog-update-service |My-Condition-Data[^1]カタログのうち特殊な手順で管理を行うcatalog-updateモジュールのソースコードや設定ファイルを管理します。 |
 | 5 |pxr-block-proxy-service |各サービスへproxyを行うblock-proxyモジュールのソースコードや設定ファイルを管理します。 |
 | 6 |pxr-notification-service |オペレータへ通知や承認要求を行うnotificationモジュールのソースコードや設定ファイルを管理します。 |
-| 7 |pxr-book-manage-service |My-Condition-Bookの管理を行うbook-manageモジュールのソースコードや設定ファイルを管理します。 |
-| 8 |pxr-book-operate-service |My-Condition-Bookへデータの蓄積と共有を行うbook-operateモジュールのソースコードや設定ファイルを管理します。 |
+| 7 |pxr-book-manage-service |My-Condition-Book[^2]の管理を行うbook-manageモジュールのソースコードや設定ファイルを管理します。 |
+| 8 |pxr-book-operate-service |My-Condition-Book[^2]へデータの蓄積と共有を行うbook-operateモジュールのソースコードや設定ファイルを管理します。 |
 | 9 |pxr-identity-verificate-service |本人性の確認を行うidentity-verificateモジュールのソースコードや設定ファイルを管理します。 |
 |10 |pxr-ctoken-ledger-service |CToken台帳の管理を行うctoken-ledgerモジュールのソースコードや設定ファイルを管理します。 |
 |11 |pxr-local-ctoken-service |Local-Ctoken-Storeの更新とCToken台帳への差分送信を行うcertification-authorityモジュールのソースコードや設定ファイルを管理します。 |
@@ -53,8 +57,8 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 |15 |pxr-access-control-service |APIトークンの生成と照合を行うaccess-controlモジュールのソースコードや設定ファイルを管理します。 |
 |16 |pxr-binary-image-service |バイナリファイルのアップロードとダウンロードを行うbinary-manageモジュールのソースコードや設定ファイルを管理します。 |
 
-My-Condition-Data=蓄積されるパーソナルデータ
-My-Condition-Book=
+[^1]: 蓄積されるパーソナルデータ
+[^2]: 個人が保持するMy-Condition-Dataの集合体
 
 ## 連絡先
 パーソナルデータ連携モジュールの開発に貢献したい方、コミュニティの運営に参加したい個人・団体の方は、
