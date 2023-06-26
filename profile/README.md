@@ -9,12 +9,16 @@
 で管理されています。
 バグや質問への対応状況を確認することができます。
 また、本コミュニティは、運営および開発メンバーを随時募集しています。
-メンバーとして参加を希望する方は、[一般チャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E4%B8%80%E8%88%AC)から参加希望のご連絡をお願いします。
+メンバーとして参加を希望する方は、
+[メンバー加入希望チャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E5%8A%A0%E5%85%A5%E5%B8%8C%E6%9C%9B)
+から参加希望のご連絡をお願いします。
 
 
 ### 普及活動
-本コミュニティでは、エリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象にセミナーを開催しています。
-セミナー詳細は
+[一般社団法人データ社会推進協議会 (DSA) ](https://data-society-alliance.org/)
+にて、
+本モジュールを利用してエリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象に、セミナーを開催しています。
+セミナーの詳細情報は
 [セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://data-society-alliance.org/area-data/seminar)
 をご確認ください。
 
@@ -62,8 +66,10 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 
 ## 連絡先
 パーソナルデータ連携モジュールの開発に貢献したい方、コミュニティの運営に参加したい個人・団体の方は、
+[こちらのチャット](https://github.com/orgs/Personal-Data-Linkage-Module/discussions/new?category=%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E5%8A%A0%E5%85%A5%E5%B8%8C%E6%9C%9B)
+へご連絡頂くとともに
 [Code for Japan (Slack) ](https://www.code4japan.org/activity/community)
-に記載の手順でワークスペースにご参加ください。
+に記載の手順でslackのワークスペースへご参加ください。
 認証認可・同意管理については、#proj-cityos_auth というチャンネルでやり取りしているので、そちらにご参加をお願いします。
 
 エリア・データ連携基盤に関するお問合せは、
