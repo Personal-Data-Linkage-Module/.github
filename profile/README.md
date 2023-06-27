@@ -2,7 +2,11 @@
 こちらは**パーソナルデータ連携モジュール**の開発者コミュニティサイトです。
 **パーソナルデータ連携モジュール**とは、サービス事業者が保有しているパーソナルデータを組織をまたがって共有できるトラスト層／データ連携層のAPI群です。
 
-![concept-image](image/concept-image.PNG)
+<!--
+マークダウンファイルからプレビュー表示する場合：concept-image](image/concept-image.PNG)
+GitHubのOverviewから表示する場合：![concept-image](profile/image//concept-image.PNG)
+-->
+![concept-image](profile/image/concept-image.PNG)
 **パーソナルデータ連携モジュールの概念図**
 
 ## 活動情報
