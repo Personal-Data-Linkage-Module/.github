@@ -22,11 +22,11 @@ GitHubのOverviewから表示する場合：![concept-image](profile/image//conc
 
 
 ### 普及活動
-[一般社団法人データ社会推進協議会 (DSA) ](https://data-society-alliance.org/)
+[一般社団法人データ社会推進協議会 (DSA) ](https://data-society-alliance.org)
 にて、
 本モジュールを利用してエリア・データ連携基盤の実装を目指す自治体様および関連事業者様を対象に、セミナーを開催しています。
 セミナーの詳細情報は
-[セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://data-society-alliance.org/area-data/seminar)
+[セミナー情報 | 一般社団法人データ社会推進協議会(DSA)](https://data-society-alliance.org/data-ex/area-data/seminar)
 をご確認ください。
 
 ## コントリビューションガイド
@@ -80,7 +80,7 @@ Pull Requestを送る場合、git-flowをベースとした以下のルールに
 認証認可・同意管理については、#proj-cityos_auth というチャンネルでやり取りしているので、そちらにご参加をお願いします。
 
 エリア・データ連携基盤に関するお問合せは、
-[DSA (エリア・データ連携基盤に関するお問合せ) ](https://data-society-alliance.org/area-data/contact/)
+[DSA (エリア・データ連携基盤に関するお問合せ) ](https://data-society-alliance.org/data-ex/area-data/contact/)
 フォームからご連絡お願いします。
 
 <!--
