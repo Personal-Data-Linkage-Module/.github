@@ -6,7 +6,7 @@
 マークダウンファイルからプレビュー表示する場合：concept-image](image/concept-image.PNG)
 GitHubのOverviewから表示する場合：![concept-image](profile/image//concept-image.PNG)
 -->
-![concept-image](profile/image/concept-image.PNG)
+![concept-image](image/concept-image.PNG)
 **パーソナルデータ連携モジュールの概念図**
 
 ### 本モジュールのライセンスと利用について
